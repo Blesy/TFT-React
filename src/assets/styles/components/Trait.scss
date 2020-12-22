@@ -1,0 +1,29 @@
+.trait:first-of-type{
+    margin-top: 3vh;
+}
+.trait{
+    width: 90%;
+    height: 4vh;
+    margin-left: 5%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.trait:hover{
+    cursor: pointer;
+}
+.trait img{
+    height: 70%;
+    width: 20%;
+    border-radius: 20px;
+    float: left;
+    margin: 3% 0;
+}
+.counter{
+    width: 75%;
+    color: gray;
+}
+.counter .selected{
+    font-size: 130%;
+    color: black;
+}
